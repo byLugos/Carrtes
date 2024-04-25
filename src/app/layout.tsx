@@ -6,7 +6,7 @@ import "./globals.css";
 import { quicksand } from "./fonts";
 
 //import global componets
-import { Navbar } from "./ui/navbar";
+import { Navbar } from "./ui/Global/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={quicksand.className}>
+      <body className={`${quicksand.className} w-full h-full`}>
         <Navbar />
         {children}
       </body>
