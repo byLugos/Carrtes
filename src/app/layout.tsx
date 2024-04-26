@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${quicksand.className} w-full h-full`}>
+      <body className={`${quicksand.className} w-full h-full mt-[70px]`}>
         <Navbar />
         {children}
       </body>
