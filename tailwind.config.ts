@@ -20,7 +20,12 @@ const config: Config = {
         hardRose: "#FF9494",
         textTitle: "#1E1E1E",
         textParagraph: "#424242",
+        secondGray : "#C2C2C2",
+
       },
+      boxShadow :{
+        cards : '0 0 1rem rgba(0,0,0,0.22)'
+      }
     },
   },
   plugins: [],

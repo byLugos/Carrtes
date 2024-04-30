@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full h-[70px] bg-whiteBg fixed top-0 ">
+    <nav className="w-full h-[70px] bg-whiteBg fixed top-0 border-b-[1px] border-secondGray">
       <div className="px-5 h-full flex items-center justify-between">
         <figure>
           <img
@@ -24,7 +24,7 @@ const Navbar = () => {
           />
         </figure>
         <span
-          className=" w-[59px] h-[59px] flex justify-center border border-gray-400 rounded-[100%] cursor-pointer"
+          className=" w-[59px] h-[59px] flex justify-center border border-secondGray rounded-[100%] cursor-pointer"
           onClick={toggleMenu}
         >
           <Bars3Icon className="w-[24px] text-hardRose" />
@@ -35,9 +35,10 @@ const Navbar = () => {
           toggle ? "vissible" : "hidde"
         }`}
       >
-        <div className="w-[300px] h-full bg-whiteBg"><hr className="border-t-4 border-gray-400"></hr></div>
+        <div className="w-[300px] h-full bg-whiteBg">
+          <h1 className="text-textParagraph hover:text-hardRose">Servicios</h1>
+        </div>
       </div>
-      <hr className="border-t-2 border-gray-400"></hr>
     </nav>
   );
 };
