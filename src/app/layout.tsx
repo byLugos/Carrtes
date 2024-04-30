@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Carrtes",
-  description: "dasdsasda",
+  description: "WebPage",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${quicksand.className} w-full h-full mt-[70px]`}>
+      <body className={`${quicksand.className} w-full h-full mt-[70px] bg-whiteBg`}>
         <Navbar />
         {children}
       </body>
