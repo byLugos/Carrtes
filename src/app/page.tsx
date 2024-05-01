@@ -2,6 +2,7 @@
 import React from "react";
 //import components
 import { WhoWeAre } from "./ui/Components/Home/WhoWeAre/WhoWeAre";
+import { WorkLine } from "./ui/Components/Home/WorkLine/workLine";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
         </div>
       </main>
       <WhoWeAre />
+      <WorkLine/>
     </React.Fragment>
   );
 }

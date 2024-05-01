@@ -24,7 +24,7 @@ const config: Config = {
 
       },
       boxShadow :{
-        cards : '0 0 1rem rgba(0,0,0,0.22)'
+        cards : '0 0 1rem rgba(0,0,0,0.17)'
       }
     },
   },
