@@ -14,7 +14,7 @@ const WorkLine = () => {
       <div className="w-full flex flex-col gap-[35px] mt-[20px]">
         {workLineD.map((item, i) => (
           <div
-            className="w-full h-[300px] bg-lightRose rounded-[12px] flex flex-col shadow-cards items-center justify-center gap-2 mt-[20px]"
+            className="w-full h-[300px] bg-lightRose rounded-[12px] flex flex-col shadow-cards items-center justify-center px-[60px]"
             key={i}
           >
             <item.icon className="size-[50px] text-hardRose"/>
