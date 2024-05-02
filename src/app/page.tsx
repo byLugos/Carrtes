@@ -16,7 +16,7 @@ export default function Home() {
               ¡con un toque de amor y creatividad!{" "}
             </span>
           </h1>
-          <p className="text-textParagraph leading-[35px] font-medium">
+          <p className="text-textParagraph leading-[35px] font-medium text-[18px]">
             {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu nisl
